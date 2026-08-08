@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/@youki_/omp-cli)](https://www.npmjs.com/package/@youki_/omp-cli)
+
 # omp-cli
 
 A minimal command-line tool for scaffolding [open.mp](https://open.mp) gamemode projects.
