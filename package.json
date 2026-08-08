@@ -1,0 +1,52 @@
+{
+  "name": "omp-cli",
+  "version": "0.1.0",
+  "description": "A minimal CLI for scaffolding open.mp projects",
+  "type": "module",
+  "bin": {
+    "omp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepublishOnly": "npm run lint && npm run format:check && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<your-username>/omp-cli.git"
+  },
+  "homepage": "https://github.com/<your-username>/omp-cli#readme",
+  "bugs": {
+    "url": "https://github.com/<your-username>/omp-cli/issues"
+  },
+  "keywords": [
+    "open.mp",
+    "samp",
+    "cli",
+    "pawn"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^6.0.0",
+    "commander": "^15.0.0",
+    "ora": "^9.4.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.1.2",
+    "eslint": "^10.8.0",
+    "prettier": "^3.9.6",
+    "tsx": "^4.23.5",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.66.0"
+  }
+}
