@@ -4,7 +4,7 @@ A minimal command-line tool for scaffolding [open.mp](https://open.mp) gamemode 
 
 ## Installation
 
-npm install -g omp-cli
+npm install -g @youki_/omp-cli
 
 ## Usage
 
