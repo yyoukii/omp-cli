@@ -1,6 +1,6 @@
 {
   "name": "@youki_/omp-cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A minimal CLI for scaffolding open.mp projects",
   "type": "module",
   "bin": {
